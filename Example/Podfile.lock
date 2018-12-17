@@ -1,0 +1,16 @@
+PODS:
+  - HBDStatusBar (1.0.0)
+
+DEPENDENCIES:
+  - HBDStatusBar (from `../`)
+
+EXTERNAL SOURCES:
+  HBDStatusBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HBDStatusBar: 8b7cfd893ab8f5b1b15c2c1fd9cc5f336b422e12
+
+PODFILE CHECKSUM: 2ea3aa95955e1531366e3c0b3c23838b8c5453c4
+
+COCOAPODS: 1.5.3

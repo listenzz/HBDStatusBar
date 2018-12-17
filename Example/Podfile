@@ -4,10 +4,4 @@ platform :ios, '8.0'
 
 target 'HBDStatusBar_Example' do
   pod 'HBDStatusBar', :path => '../'
-
-  target 'HBDStatusBar_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
