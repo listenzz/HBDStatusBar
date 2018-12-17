@@ -7,6 +7,8 @@
 //
 
 #import "HBDViewController.h"
+#import <HBDStatusBar/UIViewController+StatusBar.h>
+#import <HBDNavigationBar/UIViewController+HBD.h>
 
 @interface HBDViewController ()
 
@@ -17,13 +19,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.hbd_statusBarHidden = YES;
+    self.hbd_barHidden = YES;
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (BOOL)hidesBottomBarWhenPushed {
+    return (self.navigationController.topViewController != self);
 }
 
 @end

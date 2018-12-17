@@ -4,4 +4,5 @@ platform :ios, '8.0'
 
 target 'HBDStatusBar_Example' do
   pod 'HBDStatusBar', :path => '../'
+  pod 'HBDNavigationBar'
 end
