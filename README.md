@@ -1,15 +1,28 @@
 # HBDStatusBar
 
-[![CI Status](https://img.shields.io/travis/Listen/HBDStatusBar.svg?style=flat)](https://travis-ci.org/Listen/HBDStatusBar)
-[![Version](https://img.shields.io/cocoapods/v/HBDStatusBar.svg?style=flat)](https://cocoapods.org/pods/HBDStatusBar)
-[![License](https://img.shields.io/cocoapods/l/HBDStatusBar.svg?style=flat)](https://cocoapods.org/pods/HBDStatusBar)
-[![Platform](https://img.shields.io/cocoapods/p/HBDStatusBar.svg?style=flat)](https://cocoapods.org/pods/HBDStatusBar)
 
-## Example
+非官方推荐方式隐藏状态栏，解决有 UINavigationBar 时，隐藏状态栏带来的各种问题。
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+和官方一样，暂不支持刘海屏隐藏状态栏
 
-## Requirements
+## Usage
+
+在需要隐藏状态栏的控制器中编写如下代码
+
+```objc
+#import <HBDStatusBar/UIViewController+StatusBar.h>
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    self.hbd_statusBarHidden = YES;
+}
+```
+
+这是声明式 API，其它不需要隐藏状态栏的页面什么也不需要做。
+
+在来电模式，状态栏会显示出来。
+
 
 ## Installation
 
@@ -22,7 +35,7 @@ pod 'HBDStatusBar'
 
 ## Author
 
-Listen, listenzz@163.com
+listenzz@163.com
 
 ## License
 
