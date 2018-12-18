@@ -51,6 +51,10 @@
     [self.navigationBar setShadowImage:[UINavigationBar appearance].shadowImage];
 }
 
+- (UIViewController *)childViewControllerForStatusBarHidden {
+    return self.topViewController;
+}
+
 - (void)viewWillLayoutSubviews {
     [super viewWillLayoutSubviews];
     // 修复一个神奇的 BUG https://github.com/listenzz/HBDNavigationBar/issues/29
