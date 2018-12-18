@@ -1,11 +1,27 @@
 # HBDStatusBar
 
+官方提供了一套 API 来控制状态栏的显示和隐藏
 
-非官方推荐方式隐藏状态栏，解决有 UINavigationBar 时，隐藏状态栏带来的各种问题。
+```objc
 
-和官方一样，暂不支持刘海屏隐藏状态栏
+- (UIStatusBarAnimation)preferredStatusBarUpdateAnimation;
+
+- (UIViewController *)childViewControllerForStatusBarHidden;
+
+- (BOOL)prefersStatusBarHidden;
+
+- (void)setNeedsStatusBarAppearanceUpdate;
+
+```
+
+这一套规则在没有使用 UINavigationBar 之前，是正常的，生活是美好的。但是一旦涉及到 UINavigationBar, 就令人抓狂了，经历过的都懂，无须多言。
+
+本库因此而生，解决有 UINavigationBar 时，隐藏状态栏带来的各种问题。
 
 ## Usage
+
+使用  `hbd_statusBarHidden`  取代  `prefersStatusBarHidden`
+使用  `hbd_setNeedsStatusBarHiddenUpdate`  取代  `setNeedsStatusBarAppearanceUpdate`
 
 在需要隐藏状态栏的控制器中编写如下代码
 
@@ -19,9 +35,23 @@
 }
 ```
 
+或者
+
+```objc
+- (BOOL)hbd_statusBarHidden {
+    return YES;
+}
+```
+
 这是声明式 API，其它不需要隐藏状态栏的页面什么也不需要做。
 
-在来电模式，状态栏会显示出来。
+如果需要动态隐藏或显示状态栏，在设置  `hbd_statusBarHidden`  后调用 `hbd_setNeedsStatusBarHiddenUpdate` 即可。
+
+本库可以和 UINavigationBar 友好相处
+
+你仍然可以通过 `preferredStatusBarUpdateAnimation` 来指定状态栏显示或隐藏时的动画，仍然可以通过 `childViewControllerForStatusBarHidden` 来指定由哪个子控制器来决定是否隐藏状态栏
+
+如果你遇到 UINavigationBar 的相关问题，请访问 [HBDNavigationBar](https://github.com/listenzz/HBDNavigationBar)。
 
 
 ## Installation

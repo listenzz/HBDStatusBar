@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HBDStatusBar'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'A library handling status bar hidden'
   s.description      = <<-DESC
 A library handling status bar hidden.
