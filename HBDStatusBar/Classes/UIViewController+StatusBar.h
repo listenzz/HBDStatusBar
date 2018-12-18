@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL hbd_statusBarHidden;
 @property (nonatomic, assign, readonly) BOOL hbd_inCall;
 
-- (void)setStatusBarHidden:(BOOL)hidden;
+- (void)hbd_setNeedsStatusBarHiddenUpdate;
 
 @end
 
