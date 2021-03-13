@@ -23,9 +23,11 @@ UIKIT_STATIC_INLINE void hbd_exchangeImplementations(Class class, SEL originalSe
 }
 
 BOOL isIphoneX() {
-    NSArray *xrs =@[ @812, @896 ];
-    BOOL isIPhoneX = [xrs containsObject:@([UIScreen mainScreen].bounds.size.height)];
-    return isIPhoneX;
+    if (@available(iOS 11.0, *)) {
+        return  UIApplication.sharedApplication.keyWindow.safeAreaInsets.bottom > 0.0;
+    } else {
+        return NO;
+    }
 }
 
 @implementation UIViewController (StatusBar)
@@ -107,6 +109,15 @@ BOOL isIphoneX() {
 }
 
 - (void)hbd_setNeedsStatusBarHiddenUpdate {
+    if (isIphoneX()) {
+        [self setNeedsStatusBarAppearanceUpdate];
+        return;
+    }
+    
+    if (@available(iOS 13.0, *)) {
+        [self setNeedsStatusBarAppearanceUpdate];
+        return;
+    }
     
     UIWindow *keyWindow = [UIApplication sharedApplication].keyWindow;
     UIViewController *rootViewController = keyWindow.rootViewController;
@@ -169,6 +180,45 @@ BOOL isIphoneX() {
         statusBar.transform = hidden ? CGAffineTransformTranslate(CGAffineTransformIdentity, 0, -statusBarHeight) : CGAffineTransformIdentity;
         statusBar.alpha = hidden ? 0 : 1.0;
     }
+}
+
+@end
+
+@interface UINavigationController (StatusBar)
+
+@end
+
+@implementation UINavigationController (StatusBar)
+
++ (void)load {
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        hbd_exchangeImplementations(self, @selector(viewSafeAreaInsetsDidChange), @selector(hbd_viewSafeAreaInsetsDidChange));
+    });
+}
+
+- (void)hbd_viewSafeAreaInsetsDidChange {
+    if (@available(iOS 13.0, *)) {
+        if (isIphoneX()) {
+            return;
+        }
+        
+        UIEdgeInsets safeAreaInsets = self.view.safeAreaInsets;
+        UIEdgeInsets additionalInsets = self.additionalSafeAreaInsets;
+        
+        // NSLog(@"safeAreaInsets:%@, additionalInsets:%@", NSStringFromUIEdgeInsets(safeAreaInsets), NSStringFromUIEdgeInsets(additionalInsets));
+        
+        BOOL statusBarHidden = [UIApplication sharedApplication].keyWindow.windowScene.statusBarManager.statusBarHidden;
+        
+        if (statusBarHidden && safeAreaInsets.top == 0) {
+            self.additionalSafeAreaInsets = UIEdgeInsetsMake(20, additionalInsets.left, additionalInsets.bottom, additionalInsets.right);
+        }
+        
+        if (!statusBarHidden && safeAreaInsets.top == 40) {
+            self.additionalSafeAreaInsets = UIEdgeInsetsMake(-20, additionalInsets.left, additionalInsets.bottom, additionalInsets.right);
+        }
+    }
+    [self hbd_viewSafeAreaInsetsDidChange];
 }
 
 @end

@@ -1,13 +1,13 @@
 PODS:
   - HBDNavigationBar (1.4.5)
-  - HBDStatusBar (1.0.0)
+  - HBDStatusBar (1.1.0)
 
 DEPENDENCIES:
   - HBDNavigationBar
   - HBDStatusBar (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - HBDNavigationBar
 
 EXTERNAL SOURCES:
@@ -16,8 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   HBDNavigationBar: 63e4b560ada0d54c6d4fae949abd2250fcb62138
-  HBDStatusBar: 8b7cfd893ab8f5b1b15c2c1fd9cc5f336b422e12
+  HBDStatusBar: 171c04ec40ca831b5fd66b24171a6dd2180e2080
 
 PODFILE CHECKSUM: 3f75573036a4660fb33d7a1dc017e46b3f75569d
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.10.1

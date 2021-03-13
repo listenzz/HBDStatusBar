@@ -23,6 +23,17 @@
     self.hbd_barHidden = YES;
 }
 
+- (BOOL)prefersStatusBarHidden {
+    // 暂时找不到方法 method swizzle, 如果你知道，请告诉我
+    if (@available(iOS 13.0, *)) {
+        // 按正常流程走
+        return YES;
+    } else {
+        // 委托给 self.hbd_barHidden
+        return NO;
+    }
+}
+
 - (BOOL)hidesBottomBarWhenPushed {
     return (self.navigationController.topViewController != self);
 }

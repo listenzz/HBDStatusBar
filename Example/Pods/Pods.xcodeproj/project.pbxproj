@@ -7,342 +7,306 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07FA287831CA08345E9F8EED57AB9EFF /* HBDNavigationBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F78FFFBD71A18E0C275C9C33BCBFFC7 /* HBDNavigationBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		09013B2263EECE084F3CDFFD6B7C68D1 /* Pods-HBDStatusBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3DBEEAC77438F204A9C27258E75E20 /* Pods-HBDStatusBar_Example-dummy.m */; };
-		09F0BFDEFF568EB6F5F90B07AA5B351F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
-		2DB318076506250095A33B92083B8C1A /* HBDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B125E940E5FC4CD186BE014811485AF9 /* HBDNavigationController.m */; };
-		40CD0601800D119F9248F360D4F9E853 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
-		6723BDD2789C27E39F4ABC1876DEC739 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
-		6BC6E33E5D1E6AB50833FCC5A7D7F64D /* HBDNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AED8D0947C5DC939BE9100CC0C18092 /* HBDNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73BFAE3EEB83071479C282ACEE8BCE61 /* UIViewController+HBD.h in Headers */ = {isa = PBXBuildFile; fileRef = B81D4638BB2C56F9EB01ACADA9D226D2 /* UIViewController+HBD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B4B1F77E88CC88386F4F1C3ADEF4061 /* UIViewController+StatusBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E99E9F90A5E42B58B31FE53EE4F98BF /* UIViewController+StatusBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AC09E57094088797CAA4B01DCADC58E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
-		9D718729590AA0E8D461FA7D46B67948 /* HBDNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 664437FAF879FCFC48C3C0308743002D /* HBDNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC74DDFA1043A449E244D570C43366BB /* HBDStatusBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A75478D1034E3ADA6EE894579C776694 /* HBDStatusBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD2382B9099597D719093A8AE909D92C /* UIViewController+StatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E529AD99DED686FAD498D99A6DA42A /* UIViewController+StatusBar.m */; };
-		BF6AB774068F2B7485BBA26C0250CB9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
-		D28DEA189655AA94D51B49466E487CD4 /* HBDNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DEC6A3B156C84AB869AC6677780963 /* HBDNavigationBar.m */; };
-		EF2DD8D6AF32D4A96AB4C3CE887E7B7A /* HBDNavigationBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 082319C46DCF47B14056C36E561FD3A5 /* HBDNavigationBar-dummy.m */; };
-		F26DBA4F0178506693D0AF76C4C5DAC6 /* HBDStatusBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9E5A5AFA8424F10127902F4171828B /* HBDStatusBar-dummy.m */; };
-		F7E611F3016B6191A4FAEB707754160B /* Pods-HBDStatusBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DAE1E4B6520376CCF4B105B9F33C3C1 /* Pods-HBDStatusBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDB10500ACA058533F8F7AFA5FC2728D /* UIViewController+HBD.m in Sources */ = {isa = PBXBuildFile; fileRef = F975EE6E2BDFA3680B7F683E707EA8BB /* UIViewController+HBD.m */; };
+		06BBB28C4467D98C325F59D726F4E4FF /* UIViewController+StatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A39C95CE18A925FCEA263AEE5365561 /* UIViewController+StatusBar.m */; };
+		1D9B4EF82D4138F58A9473059EA71312 /* UIViewController+HBD.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5286B6A889DA2301AEAD7D7EF8CFFE /* UIViewController+HBD.m */; };
+		1DB399B8E68D67D945CC3AA7458FCCF7 /* HBDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629D5E4D505595B3D4BB138209CBB296 /* HBDNavigationController.m */; };
+		29A92B7F28B4DA48A07E8FCC8D0EDBB8 /* HBDNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C8C926788A4E227AE7B621E2A1622E4 /* HBDNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		450E28AAB004D1A055FE1E5390D40F64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		5BAA9A9DE568A542A09D5A6BFB708340 /* UIViewController+StatusBar.h in Headers */ = {isa = PBXBuildFile; fileRef = EC4521D3DE042D9129D3B25D665DE3A2 /* UIViewController+StatusBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		630602F567A422605A29D0814078A257 /* HBDNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5739BDD36688FE8657C056E516020F81 /* HBDNavigationBar.m */; };
+		7CF23F1B74D98FE5E44E495396FE05F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		82EA1ECB08B8637077DF5D99F0513F78 /* HBDNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 86AF98A1D5B155F7C864AF7B7A23EBCB /* HBDNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		851E3953561707C767E2EC47A7555FA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		87A198CD6DF4A2E675D1584A5DFAC691 /* Pods-HBDStatusBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A18597BF81D7F962A76DCA49212B8AF3 /* Pods-HBDStatusBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC381050EA8028E7D787CF49EDC49701 /* HBDNavigationBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FBAE06DB3C66E69AE1BC4683FA2768 /* HBDNavigationBar-dummy.m */; };
+		B4FE8577B8D9941992DC762B00BFB211 /* Pods-HBDStatusBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 599A218A94E7B1340C2190A399196B79 /* Pods-HBDStatusBar_Example-dummy.m */; };
+		BD07E03D2AF0A163C639FB0930622148 /* HBDStatusBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 209E94ADC21C65EE3451EE6813F5CD8C /* HBDStatusBar-dummy.m */; };
+		C87CD84C4AA1F1F36C553901F08A8ADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		D5C1983615B4D0225858940A281FCA28 /* HBDNavigationBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 022B3EAF096A645DE818E83B718745DD /* HBDNavigationBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAC8586E21868D8E1AF5A7F6F9D7CC73 /* UIViewController+HBD.h in Headers */ = {isa = PBXBuildFile; fileRef = DD81066A5C693BD840107E6CA14D4A82 /* UIViewController+HBD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DADAD64A1C4D41A0C9A8A5C699B305DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		FD9A8FC270BDD4F6D6F365F3096C22B4 /* HBDStatusBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C28FDA43D6B184E9038F6A1ECF5E8B57 /* HBDStatusBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		69363EB4FEF03430A8570AC4B0538E49 /* PBXContainerItemProxy */ = {
+		09A576644A5EB101E56B8BC1961DC172 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D0C12A3B11257BA434A2F33FA7E47AE1;
-			remoteInfo = HBDNavigationBar;
-		};
-		704C8F1510041A05F6A9B5D08EE37AA2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 093B06704C4CA2743FC5BE7E8A33F98E;
+			remoteGlobalIDString = E625707BD6268379C6D71151F38F4BDE;
 			remoteInfo = HBDStatusBar;
+		};
+		84AD1A58356AC5D910D9B5877B4A18AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1075D76821AB59C63D215759CC7CB0A7;
+			remoteInfo = HBDNavigationBar;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03DEC6A3B156C84AB869AC6677780963 /* HBDNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBDNavigationBar.m; path = HBDNavigationBar/Classes/HBDNavigationBar.m; sourceTree = "<group>"; };
-		06E529AD99DED686FAD498D99A6DA42A /* UIViewController+StatusBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+StatusBar.m"; path = "HBDStatusBar/Classes/UIViewController+StatusBar.m"; sourceTree = "<group>"; };
-		082319C46DCF47B14056C36E561FD3A5 /* HBDNavigationBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBDNavigationBar-dummy.m"; sourceTree = "<group>"; };
-		08A35F92AEBF7A84D4D99AED538E3E63 /* HBDStatusBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBDStatusBar.modulemap; sourceTree = "<group>"; };
-		0E99E9F90A5E42B58B31FE53EE4F98BF /* UIViewController+StatusBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+StatusBar.h"; path = "HBDStatusBar/Classes/UIViewController+StatusBar.h"; sourceTree = "<group>"; };
-		124A4729ACCCEFEA81920C8E1E57DF14 /* HBDStatusBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HBDStatusBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2112F9E6804826CF8E24F4367BA6522E /* Pods-HBDStatusBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBDStatusBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		230D76F16DEDC8EFA2CEF2404F691CC3 /* Pods-HBDStatusBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBDStatusBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		23A2EF1B11A9E7873151792B14CA48A5 /* HBDNavigationBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBDNavigationBar.modulemap; sourceTree = "<group>"; };
-		2D84AE20817E97270A2E83C0938DDA32 /* HBDNavigationBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBDNavigationBar-prefix.pch"; sourceTree = "<group>"; };
-		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		31BD689C5F3DDBA631A5FD6187123662 /* Pods-HBDStatusBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBDStatusBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3F78FFFBD71A18E0C275C9C33BCBFFC7 /* HBDNavigationBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBDNavigationBar-umbrella.h"; sourceTree = "<group>"; };
-		40C3E6540E820965A2124ACFB5CA766D /* HBDNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HBDNavigationBar.framework; path = HBDNavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		417F955C2420DCAB55833F6A6DD38B0E /* Pods-HBDStatusBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBDStatusBar_Example.modulemap"; sourceTree = "<group>"; };
-		596BA08A3A035C5A46515E9701D8333C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		60352E8053D0776E60B305CB1D1A5BC1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		664437FAF879FCFC48C3C0308743002D /* HBDNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBDNavigationController.h; path = HBDNavigationBar/Classes/HBDNavigationController.h; sourceTree = "<group>"; };
-		6753945B8148DEB52C6092DC14E31595 /* HBDStatusBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBDStatusBar.xcconfig; sourceTree = "<group>"; };
-		6E6B5B54FF9E91DE8976BCE1C8175729 /* Pods-HBDStatusBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBDStatusBar_Example-frameworks.sh"; sourceTree = "<group>"; };
-		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8AED8D0947C5DC939BE9100CC0C18092 /* HBDNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBDNavigationBar.h; path = HBDNavigationBar/Classes/HBDNavigationBar.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DAE1E4B6520376CCF4B105B9F33C3C1 /* Pods-HBDStatusBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBDStatusBar_Example-umbrella.h"; sourceTree = "<group>"; };
-		9E9E5A5AFA8424F10127902F4171828B /* HBDStatusBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBDStatusBar-dummy.m"; sourceTree = "<group>"; };
-		A0F66CC993D358485313699F713C065E /* Pods-HBDStatusBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBDStatusBar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A75478D1034E3ADA6EE894579C776694 /* HBDStatusBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBDStatusBar-umbrella.h"; sourceTree = "<group>"; };
-		A7783DEF400248E5A50ECAC7376546EB /* HBDStatusBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBDStatusBar-prefix.pch"; sourceTree = "<group>"; };
-		A81BEA572AD116A8051ED5E688426938 /* HBDStatusBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HBDStatusBar.framework; path = HBDStatusBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B125E940E5FC4CD186BE014811485AF9 /* HBDNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBDNavigationController.m; path = HBDNavigationBar/Classes/HBDNavigationController.m; sourceTree = "<group>"; };
-		B81D4638BB2C56F9EB01ACADA9D226D2 /* UIViewController+HBD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+HBD.h"; path = "HBDNavigationBar/Classes/UIViewController+HBD.h"; sourceTree = "<group>"; };
-		B83824A5BA6A3AD1DA3B9F4C4513B8A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BDCE85A55051D17B5395CDAFFAA4D8F8 /* Pods-HBDStatusBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBDStatusBar_Example-resources.sh"; sourceTree = "<group>"; };
-		C8716349CD389B8EE1298401A5121684 /* Pods_HBDStatusBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HBDStatusBar_Example.framework; path = "Pods-HBDStatusBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE142EE6B1B98357E9DBDA5FE15D58B2 /* HBDNavigationBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBDNavigationBar.xcconfig; sourceTree = "<group>"; };
-		DA3DBEEAC77438F204A9C27258E75E20 /* Pods-HBDStatusBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBDStatusBar_Example-dummy.m"; sourceTree = "<group>"; };
-		F75385E70FA2A77FFA3369AE8C39FD6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F975EE6E2BDFA3680B7F683E707EA8BB /* UIViewController+HBD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+HBD.m"; path = "HBDNavigationBar/Classes/UIViewController+HBD.m"; sourceTree = "<group>"; };
-		FEED4F624924D8598ED7F10F3F6CEA46 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		01EE6587D95A8C49756155B20BDB8FE7 /* Pods-HBDStatusBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBDStatusBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		022B3EAF096A645DE818E83B718745DD /* HBDNavigationBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBDNavigationBar-umbrella.h"; sourceTree = "<group>"; };
+		0842F3C58724C138FF59E978B4B02F92 /* HBDNavigationBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBDNavigationBar-prefix.pch"; sourceTree = "<group>"; };
+		0D3BFD07B72D21330DFC6132033B1CFE /* Pods-HBDStatusBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBDStatusBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		11D3C8A583091A97519AFB2A1BFAAE20 /* HBDStatusBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBDStatusBar.release.xcconfig; sourceTree = "<group>"; };
+		1F9D97A82005DAD907DE4E6A6AF9877C /* HBDStatusBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBDStatusBar.modulemap; sourceTree = "<group>"; };
+		209E94ADC21C65EE3451EE6813F5CD8C /* HBDStatusBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBDStatusBar-dummy.m"; sourceTree = "<group>"; };
+		2C8C926788A4E227AE7B621E2A1622E4 /* HBDNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBDNavigationController.h; path = HBDNavigationBar/Classes/HBDNavigationController.h; sourceTree = "<group>"; };
+		3584965DD1F4796FB3A3A4C3B290007A /* Pods-HBDStatusBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBDStatusBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4233F359F3A90B68E733B2DFC0A454E9 /* HBDStatusBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBDStatusBar.debug.xcconfig; sourceTree = "<group>"; };
+		44166320795E0F36BAF1AB90F186230D /* HBDNavigationBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBDNavigationBar.modulemap; sourceTree = "<group>"; };
+		50AD5B91B5D3F728BE947F9F4EB9D5F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5739BDD36688FE8657C056E516020F81 /* HBDNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBDNavigationBar.m; path = HBDNavigationBar/Classes/HBDNavigationBar.m; sourceTree = "<group>"; };
+		599A218A94E7B1340C2190A399196B79 /* Pods-HBDStatusBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBDStatusBar_Example-dummy.m"; sourceTree = "<group>"; };
+		629D5E4D505595B3D4BB138209CBB296 /* HBDNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBDNavigationController.m; path = HBDNavigationBar/Classes/HBDNavigationController.m; sourceTree = "<group>"; };
+		6A39C95CE18A925FCEA263AEE5365561 /* UIViewController+StatusBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+StatusBar.m"; path = "HBDStatusBar/Classes/UIViewController+StatusBar.m"; sourceTree = "<group>"; };
+		70B4AFABE9BED3DD25C3808A80AC5E98 /* HBDNavigationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBDNavigationBar.release.xcconfig; sourceTree = "<group>"; };
+		788DAEB8B8884F92907CC372D56B001D /* Pods_HBDStatusBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HBDStatusBar_Example.framework; path = "Pods-HBDStatusBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86AF98A1D5B155F7C864AF7B7A23EBCB /* HBDNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBDNavigationBar.h; path = HBDNavigationBar/Classes/HBDNavigationBar.h; sourceTree = "<group>"; };
+		8B6660257A6B55710E7439DF845EFE19 /* HBDNavigationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBDNavigationBar.debug.xcconfig; sourceTree = "<group>"; };
+		976E5B5B1D11E4C0D0E26D590DA507F2 /* Pods-HBDStatusBar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBDStatusBar_Example-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A18597BF81D7F962A76DCA49212B8AF3 /* Pods-HBDStatusBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBDStatusBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		A47E5D94BDB6F8B127FF17E8D041599E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A9F11895E83DF56AE43DC73B37357093 /* HBDStatusBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HBDStatusBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB35823405D1ACD82BEDECA92B123469 /* HBDStatusBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HBDStatusBar-Info.plist"; sourceTree = "<group>"; };
+		BE2C9023009D6E0207279446D5BD9766 /* Pods-HBDStatusBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBDStatusBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C28FDA43D6B184E9038F6A1ECF5E8B57 /* HBDStatusBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBDStatusBar-umbrella.h"; sourceTree = "<group>"; };
+		C4FBAE06DB3C66E69AE1BC4683FA2768 /* HBDNavigationBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBDNavigationBar-dummy.m"; sourceTree = "<group>"; };
+		CE5286B6A889DA2301AEAD7D7EF8CFFE /* UIViewController+HBD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+HBD.m"; path = "HBDNavigationBar/Classes/UIViewController+HBD.m"; sourceTree = "<group>"; };
+		D167096E06E63397083D4DA8C7D802BF /* HBDStatusBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HBDStatusBar.framework; path = HBDStatusBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D53C90F6A231E099EEA394E71C240168 /* Pods-HBDStatusBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBDStatusBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD81066A5C693BD840107E6CA14D4A82 /* UIViewController+HBD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+HBD.h"; path = "HBDNavigationBar/Classes/UIViewController+HBD.h"; sourceTree = "<group>"; };
+		E145361D0BBC6E4B851BD9F9BB04B62C /* HBDStatusBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBDStatusBar-prefix.pch"; sourceTree = "<group>"; };
+		E1FEE5DC0ED9F1D9832C0C1612CDE21D /* Pods-HBDStatusBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBDStatusBar_Example.modulemap"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EC4521D3DE042D9129D3B25D665DE3A2 /* UIViewController+StatusBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+StatusBar.h"; path = "HBDStatusBar/Classes/UIViewController+StatusBar.h"; sourceTree = "<group>"; };
+		FC673151C5497BC8027FF15C04A83C54 /* HBDNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HBDNavigationBar.framework; path = HBDNavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE060839256790F796653B8560DC850 /* HBDNavigationBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HBDNavigationBar-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		73BDBA6D6431F56ECD3B5DCEE32A82DB /* Frameworks */ = {
+		0BEDF93512BAA0993D77DCABDDC7375F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40CD0601800D119F9248F360D4F9E853 /* Foundation.framework in Frameworks */,
+				450E28AAB004D1A055FE1E5390D40F64 /* Foundation.framework in Frameworks */,
+				DADAD64A1C4D41A0C9A8A5C699B305DD /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81CF95947B193B975C8D30F8D35F23BE /* Frameworks */ = {
+		26E872DE9DB3784F80586FCCADADF812 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AC09E57094088797CAA4B01DCADC58E /* Foundation.framework in Frameworks */,
-				BF6AB774068F2B7485BBA26C0250CB9B /* UIKit.framework in Frameworks */,
+				C87CD84C4AA1F1F36C553901F08A8ADD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84AB9FB4CA524C3648C8AEE685AF7C81 /* Frameworks */ = {
+		ED85594D93BCFC722E3284CC0FC42244 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09F0BFDEFF568EB6F5F90B07AA5B351F /* Foundation.framework in Frameworks */,
-				6723BDD2789C27E39F4ABC1876DEC739 /* UIKit.framework in Frameworks */,
+				7CF23F1B74D98FE5E44E495396FE05F0 /* Foundation.framework in Frameworks */,
+				851E3953561707C767E2EC47A7555FA6 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0637F2D22D4C07F883DD1E6BCFC7FCF6 /* Development Pods */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F9A51D215E6A140EEC4E8E6EC2927D94 /* HBDStatusBar */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		06CDD10DE71306278CF89108B3036DFD /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */,
-				74E404AA6957590324067E330E0EC533 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		2D47284436496EA19704F96CB49B8F9E /* Pods-HBDStatusBar_Example */ = {
-			isa = PBXGroup;
-			children = (
-				60352E8053D0776E60B305CB1D1A5BC1 /* Info.plist */,
-				417F955C2420DCAB55833F6A6DD38B0E /* Pods-HBDStatusBar_Example.modulemap */,
-				31BD689C5F3DDBA631A5FD6187123662 /* Pods-HBDStatusBar_Example-acknowledgements.markdown */,
-				2112F9E6804826CF8E24F4367BA6522E /* Pods-HBDStatusBar_Example-acknowledgements.plist */,
-				DA3DBEEAC77438F204A9C27258E75E20 /* Pods-HBDStatusBar_Example-dummy.m */,
-				6E6B5B54FF9E91DE8976BCE1C8175729 /* Pods-HBDStatusBar_Example-frameworks.sh */,
-				BDCE85A55051D17B5395CDAFFAA4D8F8 /* Pods-HBDStatusBar_Example-resources.sh */,
-				9DAE1E4B6520376CCF4B105B9F33C3C1 /* Pods-HBDStatusBar_Example-umbrella.h */,
-				230D76F16DEDC8EFA2CEF2404F691CC3 /* Pods-HBDStatusBar_Example.debug.xcconfig */,
-				A0F66CC993D358485313699F713C065E /* Pods-HBDStatusBar_Example.release.xcconfig */,
-			);
-			name = "Pods-HBDStatusBar_Example";
-			path = "Target Support Files/Pods-HBDStatusBar_Example";
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				06CDD10DE71306278CF89108B3036DFD /* iOS */,
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6FCE5F001C8B0BF6FB19119EF44D18E0 /* Products */ = {
+		1B272A47413275ECA44B34863B4F797E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				40C3E6540E820965A2124ACFB5CA766D /* HBDNavigationBar.framework */,
-				A81BEA572AD116A8051ED5E688426938 /* HBDStatusBar.framework */,
-				C8716349CD389B8EE1298401A5121684 /* Pods_HBDStatusBar_Example.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		70D1487A740B23B6894104A599215747 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				124A4729ACCCEFEA81920C8E1E57DF14 /* HBDStatusBar.podspec */,
-				596BA08A3A035C5A46515E9701D8333C /* LICENSE */,
-				FEED4F624924D8598ED7F10F3F6CEA46 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		791B85B0CAC1EA05B6FA42AE00B17E7A /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2D47284436496EA19704F96CB49B8F9E /* Pods-HBDStatusBar_Example */,
+				9090B0116AB005A39DF5DE3ECC06BE4C /* Pods-HBDStatusBar_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		2D7968C23BBD3C01AF2975FAD9AF608D /* HBDNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0637F2D22D4C07F883DD1E6BCFC7FCF6 /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				AE0C6B5DFEC4A6FA9F72ACC12D2CF5BC /* Pods */,
-				6FCE5F001C8B0BF6FB19119EF44D18E0 /* Products */,
-				791B85B0CAC1EA05B6FA42AE00B17E7A /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		849AD1C7235A65BCC02E14C7680AFECF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				08A35F92AEBF7A84D4D99AED538E3E63 /* HBDStatusBar.modulemap */,
-				6753945B8148DEB52C6092DC14E31595 /* HBDStatusBar.xcconfig */,
-				9E9E5A5AFA8424F10127902F4171828B /* HBDStatusBar-dummy.m */,
-				A7783DEF400248E5A50ECAC7376546EB /* HBDStatusBar-prefix.pch */,
-				A75478D1034E3ADA6EE894579C776694 /* HBDStatusBar-umbrella.h */,
-				B83824A5BA6A3AD1DA3B9F4C4513B8A8 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HBDStatusBar";
-			sourceTree = "<group>";
-		};
-		AE0C6B5DFEC4A6FA9F72ACC12D2CF5BC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B933736C3114725F7A29B75B2685F9F9 /* HBDNavigationBar */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B933736C3114725F7A29B75B2685F9F9 /* HBDNavigationBar */ = {
-			isa = PBXGroup;
-			children = (
-				8AED8D0947C5DC939BE9100CC0C18092 /* HBDNavigationBar.h */,
-				03DEC6A3B156C84AB869AC6677780963 /* HBDNavigationBar.m */,
-				664437FAF879FCFC48C3C0308743002D /* HBDNavigationController.h */,
-				B125E940E5FC4CD186BE014811485AF9 /* HBDNavigationController.m */,
-				B81D4638BB2C56F9EB01ACADA9D226D2 /* UIViewController+HBD.h */,
-				F975EE6E2BDFA3680B7F683E707EA8BB /* UIViewController+HBD.m */,
-				EA2C66069206B9F8E2AF516965399C5C /* Support Files */,
+				86AF98A1D5B155F7C864AF7B7A23EBCB /* HBDNavigationBar.h */,
+				5739BDD36688FE8657C056E516020F81 /* HBDNavigationBar.m */,
+				2C8C926788A4E227AE7B621E2A1622E4 /* HBDNavigationController.h */,
+				629D5E4D505595B3D4BB138209CBB296 /* HBDNavigationController.m */,
+				DD81066A5C693BD840107E6CA14D4A82 /* UIViewController+HBD.h */,
+				CE5286B6A889DA2301AEAD7D7EF8CFFE /* UIViewController+HBD.m */,
+				E2F63D09DA96AE2172C079473B3C3749 /* Support Files */,
 			);
 			name = HBDNavigationBar;
 			path = HBDNavigationBar;
 			sourceTree = "<group>";
 		};
-		EA2C66069206B9F8E2AF516965399C5C /* Support Files */ = {
+		414232AA2B34BDED08BE18E328D0C5EE /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				23A2EF1B11A9E7873151792B14CA48A5 /* HBDNavigationBar.modulemap */,
-				CE142EE6B1B98357E9DBDA5FE15D58B2 /* HBDNavigationBar.xcconfig */,
-				082319C46DCF47B14056C36E561FD3A5 /* HBDNavigationBar-dummy.m */,
-				2D84AE20817E97270A2E83C0938DDA32 /* HBDNavigationBar-prefix.pch */,
-				3F78FFFBD71A18E0C275C9C33BCBFFC7 /* HBDNavigationBar-umbrella.h */,
-				F75385E70FA2A77FFA3369AE8C39FD6B /* Info.plist */,
+				526314FF8A154211ED01DF15650C7426 /* HBDStatusBar */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/HBDNavigationBar";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		F9A51D215E6A140EEC4E8E6EC2927D94 /* HBDStatusBar */ = {
+		526314FF8A154211ED01DF15650C7426 /* HBDStatusBar */ = {
 			isa = PBXGroup;
 			children = (
-				0E99E9F90A5E42B58B31FE53EE4F98BF /* UIViewController+StatusBar.h */,
-				06E529AD99DED686FAD498D99A6DA42A /* UIViewController+StatusBar.m */,
-				70D1487A740B23B6894104A599215747 /* Pod */,
-				849AD1C7235A65BCC02E14C7680AFECF /* Support Files */,
+				EC4521D3DE042D9129D3B25D665DE3A2 /* UIViewController+StatusBar.h */,
+				6A39C95CE18A925FCEA263AEE5365561 /* UIViewController+StatusBar.m */,
+				E3DD2FC369C6C6A9C2C44FBF8E634E4A /* Pod */,
+				FCE68D49EC7464DC0ABAF7AAED8348C8 /* Support Files */,
 			);
 			name = HBDStatusBar;
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9090B0116AB005A39DF5DE3ECC06BE4C /* Pods-HBDStatusBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E1FEE5DC0ED9F1D9832C0C1612CDE21D /* Pods-HBDStatusBar_Example.modulemap */,
+				0D3BFD07B72D21330DFC6132033B1CFE /* Pods-HBDStatusBar_Example-acknowledgements.markdown */,
+				D53C90F6A231E099EEA394E71C240168 /* Pods-HBDStatusBar_Example-acknowledgements.plist */,
+				599A218A94E7B1340C2190A399196B79 /* Pods-HBDStatusBar_Example-dummy.m */,
+				BE2C9023009D6E0207279446D5BD9766 /* Pods-HBDStatusBar_Example-frameworks.sh */,
+				976E5B5B1D11E4C0D0E26D590DA507F2 /* Pods-HBDStatusBar_Example-Info.plist */,
+				A18597BF81D7F962A76DCA49212B8AF3 /* Pods-HBDStatusBar_Example-umbrella.h */,
+				01EE6587D95A8C49756155B20BDB8FE7 /* Pods-HBDStatusBar_Example.debug.xcconfig */,
+				3584965DD1F4796FB3A3A4C3B290007A /* Pods-HBDStatusBar_Example.release.xcconfig */,
+			);
+			name = "Pods-HBDStatusBar_Example";
+			path = "Target Support Files/Pods-HBDStatusBar_Example";
+			sourceTree = "<group>";
+		};
+		90A3F871F9FB746988BDBF06136E723E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC673151C5497BC8027FF15C04A83C54 /* HBDNavigationBar.framework */,
+				D167096E06E63397083D4DA8C7D802BF /* HBDStatusBar.framework */,
+				788DAEB8B8884F92907CC372D56B001D /* Pods_HBDStatusBar_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF48F11A5DA8E35B2E791A43ABC0097D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D7968C23BBD3C01AF2975FAD9AF608D /* HBDNavigationBar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				414232AA2B34BDED08BE18E328D0C5EE /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				AF48F11A5DA8E35B2E791A43ABC0097D /* Pods */,
+				90A3F871F9FB746988BDBF06136E723E /* Products */,
+				1B272A47413275ECA44B34863B4F797E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2F63D09DA96AE2172C079473B3C3749 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				44166320795E0F36BAF1AB90F186230D /* HBDNavigationBar.modulemap */,
+				C4FBAE06DB3C66E69AE1BC4683FA2768 /* HBDNavigationBar-dummy.m */,
+				FDE060839256790F796653B8560DC850 /* HBDNavigationBar-Info.plist */,
+				0842F3C58724C138FF59E978B4B02F92 /* HBDNavigationBar-prefix.pch */,
+				022B3EAF096A645DE818E83B718745DD /* HBDNavigationBar-umbrella.h */,
+				8B6660257A6B55710E7439DF845EFE19 /* HBDNavigationBar.debug.xcconfig */,
+				70B4AFABE9BED3DD25C3808A80AC5E98 /* HBDNavigationBar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HBDNavigationBar";
+			sourceTree = "<group>";
+		};
+		E3DD2FC369C6C6A9C2C44FBF8E634E4A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A9F11895E83DF56AE43DC73B37357093 /* HBDStatusBar.podspec */,
+				A47E5D94BDB6F8B127FF17E8D041599E /* LICENSE */,
+				50AD5B91B5D3F728BE947F9F4EB9D5F7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FCE68D49EC7464DC0ABAF7AAED8348C8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F9D97A82005DAD907DE4E6A6AF9877C /* HBDStatusBar.modulemap */,
+				209E94ADC21C65EE3451EE6813F5CD8C /* HBDStatusBar-dummy.m */,
+				AB35823405D1ACD82BEDECA92B123469 /* HBDStatusBar-Info.plist */,
+				E145361D0BBC6E4B851BD9F9BB04B62C /* HBDStatusBar-prefix.pch */,
+				C28FDA43D6B184E9038F6A1ECF5E8B57 /* HBDStatusBar-umbrella.h */,
+				4233F359F3A90B68E733B2DFC0A454E9 /* HBDStatusBar.debug.xcconfig */,
+				11D3C8A583091A97519AFB2A1BFAAE20 /* HBDStatusBar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HBDStatusBar";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		22C0B3955AAE463D52538B94777CB747 /* Headers */ = {
+		41D6A3EC2C5D39B267A4C605C67AF084 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7E611F3016B6191A4FAEB707754160B /* Pods-HBDStatusBar_Example-umbrella.h in Headers */,
+				87A198CD6DF4A2E675D1584A5DFAC691 /* Pods-HBDStatusBar_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		522FC6FF080E4BEB39A1F61BC2FE9620 /* Headers */ = {
+		823EC383641C088BC11B6C2212AA4BA8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC74DDFA1043A449E244D570C43366BB /* HBDStatusBar-umbrella.h in Headers */,
-				7B4B1F77E88CC88386F4F1C3ADEF4061 /* UIViewController+StatusBar.h in Headers */,
+				D5C1983615B4D0225858940A281FCA28 /* HBDNavigationBar-umbrella.h in Headers */,
+				82EA1ECB08B8637077DF5D99F0513F78 /* HBDNavigationBar.h in Headers */,
+				29A92B7F28B4DA48A07E8FCC8D0EDBB8 /* HBDNavigationController.h in Headers */,
+				DAC8586E21868D8E1AF5A7F6F9D7CC73 /* UIViewController+HBD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		811425D957813446C85831C864D955E8 /* Headers */ = {
+		D08199C63B97A88969B7F81DFE604E25 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07FA287831CA08345E9F8EED57AB9EFF /* HBDNavigationBar-umbrella.h in Headers */,
-				6BC6E33E5D1E6AB50833FCC5A7D7F64D /* HBDNavigationBar.h in Headers */,
-				9D718729590AA0E8D461FA7D46B67948 /* HBDNavigationController.h in Headers */,
-				73BFAE3EEB83071479C282ACEE8BCE61 /* UIViewController+HBD.h in Headers */,
+				FD9A8FC270BDD4F6D6F365F3096C22B4 /* HBDStatusBar-umbrella.h in Headers */,
+				5BAA9A9DE568A542A09D5A6BFB708340 /* UIViewController+StatusBar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		093B06704C4CA2743FC5BE7E8A33F98E /* HBDStatusBar */ = {
+		1075D76821AB59C63D215759CC7CB0A7 /* HBDNavigationBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A26577B996C547A30E674E016789409 /* Build configuration list for PBXNativeTarget "HBDStatusBar" */;
+			buildConfigurationList = 9A200AE188FEE2180FC9C2E02D07FF19 /* Build configuration list for PBXNativeTarget "HBDNavigationBar" */;
 			buildPhases = (
-				522FC6FF080E4BEB39A1F61BC2FE9620 /* Headers */,
-				CCF1A0A5767CE0A2F9EAD6399DAFB3B2 /* Sources */,
-				84AB9FB4CA524C3648C8AEE685AF7C81 /* Frameworks */,
-				FF99CFC079CD217245EBD5C3D0F529F2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HBDStatusBar;
-			productName = HBDStatusBar;
-			productReference = A81BEA572AD116A8051ED5E688426938 /* HBDStatusBar.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		30F91C3D275F9AF9DDEE018BCEBFF2FF /* Pods-HBDStatusBar_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1ED7E77B44898C0038ECE1DD3C1DDDC8 /* Build configuration list for PBXNativeTarget "Pods-HBDStatusBar_Example" */;
-			buildPhases = (
-				22C0B3955AAE463D52538B94777CB747 /* Headers */,
-				3D9620F0C271B82CDB435875F71525CD /* Sources */,
-				73BDBA6D6431F56ECD3B5DCEE32A82DB /* Frameworks */,
-				47A2C83F0C2C8AF581E17C35F748C272 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				111A513A7978EA8C1C6FBFDAEF0F041A /* PBXTargetDependency */,
-				D929A1027DE4D71E102E794336AF4440 /* PBXTargetDependency */,
-			);
-			name = "Pods-HBDStatusBar_Example";
-			productName = "Pods-HBDStatusBar_Example";
-			productReference = C8716349CD389B8EE1298401A5121684 /* Pods_HBDStatusBar_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D0C12A3B11257BA434A2F33FA7E47AE1 /* HBDNavigationBar */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B007CA313D9BA5580169721A87CA03E1 /* Build configuration list for PBXNativeTarget "HBDNavigationBar" */;
-			buildPhases = (
-				811425D957813446C85831C864D955E8 /* Headers */,
-				32EC918F536129E75A806701113BBCCC /* Sources */,
-				81CF95947B193B975C8D30F8D35F23BE /* Frameworks */,
-				019A565E7BFB7BF579DDB4F57E944750 /* Resources */,
+				823EC383641C088BC11B6C2212AA4BA8 /* Headers */,
+				C24C3C3BE29D01873479877D58FBC5E6 /* Sources */,
+				0BEDF93512BAA0993D77DCABDDC7375F /* Frameworks */,
+				FE2A5B27FA700810D25A86ED2B4DC04C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -350,53 +314,92 @@
 			);
 			name = HBDNavigationBar;
 			productName = HBDNavigationBar;
-			productReference = 40C3E6540E820965A2124ACFB5CA766D /* HBDNavigationBar.framework */;
+			productReference = FC673151C5497BC8027FF15C04A83C54 /* HBDNavigationBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2BA9AAFC688C30873B3E14FE69531441 /* Pods-HBDStatusBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D44CB10494749A40FC29591473C2E1 /* Build configuration list for PBXNativeTarget "Pods-HBDStatusBar_Example" */;
+			buildPhases = (
+				41D6A3EC2C5D39B267A4C605C67AF084 /* Headers */,
+				CF51CE8B75131E0A08F1CAF8BD4A98BB /* Sources */,
+				26E872DE9DB3784F80586FCCADADF812 /* Frameworks */,
+				8B9CF23C9176180638ED2EB84D8079D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A920E964621F5C754B2D61DCA7C5ED91 /* PBXTargetDependency */,
+				8B246E75C79643EEC235F4EB0F7103FD /* PBXTargetDependency */,
+			);
+			name = "Pods-HBDStatusBar_Example";
+			productName = "Pods-HBDStatusBar_Example";
+			productReference = 788DAEB8B8884F92907CC372D56B001D /* Pods_HBDStatusBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E625707BD6268379C6D71151F38F4BDE /* HBDStatusBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D89A9A8DD9C6C925860E71405510F60B /* Build configuration list for PBXNativeTarget "HBDStatusBar" */;
+			buildPhases = (
+				D08199C63B97A88969B7F81DFE604E25 /* Headers */,
+				93872753D74AC0ED1479D6E0BC4E3195 /* Sources */,
+				ED85594D93BCFC722E3284CC0FC42244 /* Frameworks */,
+				8E0E4E03B341122E7A27A3E7A7A40AA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBDStatusBar;
+			productName = HBDStatusBar;
+			productReference = D167096E06E63397083D4DA8C7D802BF /* HBDStatusBar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 6FCE5F001C8B0BF6FB19119EF44D18E0 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 90A3F871F9FB746988BDBF06136E723E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D0C12A3B11257BA434A2F33FA7E47AE1 /* HBDNavigationBar */,
-				093B06704C4CA2743FC5BE7E8A33F98E /* HBDStatusBar */,
-				30F91C3D275F9AF9DDEE018BCEBFF2FF /* Pods-HBDStatusBar_Example */,
+				1075D76821AB59C63D215759CC7CB0A7 /* HBDNavigationBar */,
+				E625707BD6268379C6D71151F38F4BDE /* HBDStatusBar */,
+				2BA9AAFC688C30873B3E14FE69531441 /* Pods-HBDStatusBar_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		019A565E7BFB7BF579DDB4F57E944750 /* Resources */ = {
+		8B9CF23C9176180638ED2EB84D8079D1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47A2C83F0C2C8AF581E17C35F748C272 /* Resources */ = {
+		8E0E4E03B341122E7A27A3E7A7A40AA8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF99CFC079CD217245EBD5C3D0F529F2 /* Resources */ = {
+		FE2A5B27FA700810D25A86ED2B4DC04C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -406,57 +409,56 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		32EC918F536129E75A806701113BBCCC /* Sources */ = {
+		93872753D74AC0ED1479D6E0BC4E3195 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF2DD8D6AF32D4A96AB4C3CE887E7B7A /* HBDNavigationBar-dummy.m in Sources */,
-				D28DEA189655AA94D51B49466E487CD4 /* HBDNavigationBar.m in Sources */,
-				2DB318076506250095A33B92083B8C1A /* HBDNavigationController.m in Sources */,
-				FDB10500ACA058533F8F7AFA5FC2728D /* UIViewController+HBD.m in Sources */,
+				BD07E03D2AF0A163C639FB0930622148 /* HBDStatusBar-dummy.m in Sources */,
+				06BBB28C4467D98C325F59D726F4E4FF /* UIViewController+StatusBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D9620F0C271B82CDB435875F71525CD /* Sources */ = {
+		C24C3C3BE29D01873479877D58FBC5E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09013B2263EECE084F3CDFFD6B7C68D1 /* Pods-HBDStatusBar_Example-dummy.m in Sources */,
+				AC381050EA8028E7D787CF49EDC49701 /* HBDNavigationBar-dummy.m in Sources */,
+				630602F567A422605A29D0814078A257 /* HBDNavigationBar.m in Sources */,
+				1DB399B8E68D67D945CC3AA7458FCCF7 /* HBDNavigationController.m in Sources */,
+				1D9B4EF82D4138F58A9473059EA71312 /* UIViewController+HBD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCF1A0A5767CE0A2F9EAD6399DAFB3B2 /* Sources */ = {
+		CF51CE8B75131E0A08F1CAF8BD4A98BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F26DBA4F0178506693D0AF76C4C5DAC6 /* HBDStatusBar-dummy.m in Sources */,
-				BD2382B9099597D719093A8AE909D92C /* UIViewController+StatusBar.m in Sources */,
+				B4FE8577B8D9941992DC762B00BFB211 /* Pods-HBDStatusBar_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		111A513A7978EA8C1C6FBFDAEF0F041A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HBDNavigationBar;
-			target = D0C12A3B11257BA434A2F33FA7E47AE1 /* HBDNavigationBar */;
-			targetProxy = 69363EB4FEF03430A8570AC4B0538E49 /* PBXContainerItemProxy */;
-		};
-		D929A1027DE4D71E102E794336AF4440 /* PBXTargetDependency */ = {
+		8B246E75C79643EEC235F4EB0F7103FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HBDStatusBar;
-			target = 093B06704C4CA2743FC5BE7E8A33F98E /* HBDStatusBar */;
-			targetProxy = 704C8F1510041A05F6A9B5D08EE37AA2 /* PBXContainerItemProxy */;
+			target = E625707BD6268379C6D71151F38F4BDE /* HBDStatusBar */;
+			targetProxy = 09A576644A5EB101E56B8BC1961DC172 /* PBXContainerItemProxy */;
+		};
+		A920E964621F5C754B2D61DCA7C5ED91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HBDNavigationBar;
+			target = 1075D76821AB59C63D215759CC7CB0A7 /* HBDNavigationBar */;
+			targetProxy = 84AD1A58356AC5D910D9B5877B4A18AE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0BB029B447E0F4E0CFA9E6C5D5366046 /* Debug */ = {
+		462C3ACDF1FFBEF6C33E22A8B62F64FF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6753945B8148DEB52C6092DC14E31595 /* HBDStatusBar.xcconfig */;
+			baseConfigurationReference = 4233F359F3A90B68E733B2DFC0A454E9 /* HBDStatusBar.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -466,7 +468,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/HBDStatusBar/HBDStatusBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HBDStatusBar/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/HBDStatusBar/HBDStatusBar-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,11 +484,10 @@
 			};
 			name = Debug;
 		};
-		33E589A6073B65B59A8EDAD38A9B5C5F /* Release */ = {
+		5206C4C50B8199B2C372D1EDD71B9FD2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6753945B8148DEB52C6092DC14E31595 /* HBDStatusBar.xcconfig */;
+			baseConfigurationReference = 70B4AFABE9BED3DD25C3808A80AC5E98 /* HBDNavigationBar.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -495,14 +496,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HBDStatusBar/HBDStatusBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HBDStatusBar/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/HBDNavigationBar/HBDNavigationBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HBDNavigationBar/HBDNavigationBar-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HBDStatusBar/HBDStatusBar.modulemap";
-				PRODUCT_MODULE_NAME = HBDStatusBar;
-				PRODUCT_NAME = HBDStatusBar;
+				MODULEMAP_FILE = "Target Support Files/HBDNavigationBar/HBDNavigationBar.modulemap";
+				PRODUCT_MODULE_NAME = HBDNavigationBar;
+				PRODUCT_NAME = HBDNavigationBar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -513,12 +514,10 @@
 			};
 			name = Release;
 		};
-		52BECDAD789D8D136FF3F875AF6D5C0B /* Release */ = {
+		69379281A6D6D6389F88315985656EBB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0F66CC993D358485313699F713C065E /* Pods-HBDStatusBar_Example.release.xcconfig */;
+			baseConfigurationReference = 8B6660257A6B55710E7439DF845EFE19 /* HBDNavigationBar.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -527,30 +526,28 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HBDStatusBar_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/HBDNavigationBar/HBDNavigationBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HBDNavigationBar/HBDNavigationBar-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HBDStatusBar_Example/Pods-HBDStatusBar_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/HBDNavigationBar/HBDNavigationBar.modulemap";
+				PRODUCT_MODULE_NAME = HBDNavigationBar;
+				PRODUCT_NAME = HBDNavigationBar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -573,14 +570,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -604,17 +600,15 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		8E2BE0282ED69D1DF3484C9425A6F3BD /* Debug */ = {
+		7A981265F9BEEBCAEF5917A9F16F7258 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 230D76F16DEDC8EFA2CEF2404F691CC3 /* Pods-HBDStatusBar_Example.debug.xcconfig */;
+			baseConfigurationReference = 11D3C8A583091A97519AFB2A1BFAAE20 /* HBDStatusBar.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -623,7 +617,38 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HBDStatusBar_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/HBDStatusBar/HBDStatusBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HBDStatusBar/HBDStatusBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HBDStatusBar/HBDStatusBar.modulemap";
+				PRODUCT_MODULE_NAME = HBDStatusBar;
+				PRODUCT_NAME = HBDStatusBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A88EC0AB3D341266EE523A4434E30737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01EE6587D95A8C49756155B20BDB8FE7 /* Pods-HBDStatusBar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBDStatusBar_Example/Pods-HBDStatusBar_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -642,10 +667,44 @@
 			};
 			name = Debug;
 		};
-		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
+		CF9D866A9085998576911AD264699C65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3584965DD1F4796FB3A3A4C3B290007A /* Pods-HBDStatusBar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBDStatusBar_Example/Pods-HBDStatusBar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBDStatusBar_Example/Pods-HBDStatusBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -668,14 +727,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -703,112 +761,51 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		D3025CBFB69452F61FDD5D286842E27B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE142EE6B1B98357E9DBDA5FE15D58B2 /* HBDNavigationBar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HBDNavigationBar/HBDNavigationBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HBDNavigationBar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HBDNavigationBar/HBDNavigationBar.modulemap";
-				PRODUCT_MODULE_NAME = HBDNavigationBar;
-				PRODUCT_NAME = HBDNavigationBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F191609C0128B975034509F49F936993 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE142EE6B1B98357E9DBDA5FE15D58B2 /* HBDNavigationBar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HBDNavigationBar/HBDNavigationBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HBDNavigationBar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HBDNavigationBar/HBDNavigationBar.modulemap";
-				PRODUCT_MODULE_NAME = HBDNavigationBar;
-				PRODUCT_NAME = HBDNavigationBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1ED7E77B44898C0038ECE1DD3C1DDDC8 /* Build configuration list for PBXNativeTarget "Pods-HBDStatusBar_Example" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E2BE0282ED69D1DF3484C9425A6F3BD /* Debug */,
-				52BECDAD789D8D136FF3F875AF6D5C0B /* Release */,
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		62D44CB10494749A40FC29591473C2E1 /* Build configuration list for PBXNativeTarget "Pods-HBDStatusBar_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A73625DEBD810B78234FA1958C191C8C /* Debug */,
-				85B95B1234E227C814CCC2C7902D0916 /* Release */,
+				A88EC0AB3D341266EE523A4434E30737 /* Debug */,
+				CF9D866A9085998576911AD264699C65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A26577B996C547A30E674E016789409 /* Build configuration list for PBXNativeTarget "HBDStatusBar" */ = {
+		9A200AE188FEE2180FC9C2E02D07FF19 /* Build configuration list for PBXNativeTarget "HBDNavigationBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0BB029B447E0F4E0CFA9E6C5D5366046 /* Debug */,
-				33E589A6073B65B59A8EDAD38A9B5C5F /* Release */,
+				69379281A6D6D6389F88315985656EBB /* Debug */,
+				5206C4C50B8199B2C372D1EDD71B9FD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B007CA313D9BA5580169721A87CA03E1 /* Build configuration list for PBXNativeTarget "HBDNavigationBar" */ = {
+		D89A9A8DD9C6C925860E71405510F60B /* Build configuration list for PBXNativeTarget "HBDStatusBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F191609C0128B975034509F49F936993 /* Debug */,
-				D3025CBFB69452F61FDD5D286842E27B /* Release */,
+				462C3ACDF1FFBEF6C33E22A8B62F64FF /* Debug */,
+				7A981265F9BEEBCAEF5917A9F16F7258 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
