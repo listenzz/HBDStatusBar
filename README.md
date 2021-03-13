@@ -53,6 +53,27 @@
 
 如果你遇到 UINavigationBar 的相关问题，请访问 [HBDNavigationBar](https://github.com/listenzz/HBDNavigationBar)。
 
+## 更新至 iOS 13
+
+为了适配 iOS 13, 在需要隐藏状态栏的 UIViewController 中实现如下方法
+
+```objc
+- (BOOL)prefersStatusBarHidden {
+    if (@available(iOS 13.0, *)) {
+        // 返回值和 self.hbd_barHidden 设定的值一致
+        // 千万别返回 self.hbd_barHidden，因为 prefersStatusBarHidden 比 viewDidLoad 先执行
+        return YES;
+    } else {
+        // 固定返回 NO, 由 self.hbd_barHidden 决定是否隐藏状态栏
+        return NO;
+    }
+}
+```
+
+为什么不用 method swizzle 搞定 prefersStatusBarHidden？
+
+因为我搞不定，如果你搞定了，请务必告诉我。感谢。
+
 
 ## Installation
 
